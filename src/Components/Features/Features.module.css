@@ -1,0 +1,51 @@
+.container {
+    margin: 0 auto;
+    padding-top: 200px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.FeaturesBox {
+    height: 960px;
+    background-image: url('/Img/BgFeatures.jpg');
+    width: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    background-size: cover;
+}
+.txtDescription{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.FeaturesBox span {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 32px;
+    color: #fff;
+}
+
+.FeaturesBox h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 80px;
+    color: #fff;
+}
+
+.textArea{
+    max-width: 450px;
+}
+
+.block{
+    padding: 0 0 32px 32px;
+}
+
+.textCont span{
+    color: #FFB548;
+}
+
+.textCont p{
+    font-size: 21px;
+}

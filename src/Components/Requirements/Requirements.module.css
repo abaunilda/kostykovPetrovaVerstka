@@ -1,0 +1,70 @@
+.container {
+    margin: 0 auto;
+    padding-top: 200px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.ReqBox {
+    height: 960px;
+    background-image: url('/Img/BgReq.jpg');
+    width: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    background-size: cover;
+}
+
+.ReqBox span {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 32px;
+    color: #fff;
+}
+
+.ReqBox h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 80px;
+    color: #fff;
+}
+
+.Reqtitle {
+    padding-bottom: 60px;
+}
+
+.specsTable {
+    width: 100%;
+    /* border-collapse: collapse; */
+    border: 1px solid #fff 50%;
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 440px;
+}
+
+.specsTable td {
+    padding: 20px;
+    border-bottom: 1px solid #fff;
+    /* font-size: 1.1rem; */
+    line-height: 1.6;
+}
+
+.specsTable tr:last-child td {
+    border-bottom: none;
+}
+
+.category {
+    font-family: "Bebas Neue", sans-serif;
+    /* font-weight: 600; */
+    font-size: 24px;
+    width: 200px;
+    vertical-align: top;
+    border-right: 1px solid #fff;
+    color: #FFB548;
+}
+
+.requirements {
+    color: #fff;
+}

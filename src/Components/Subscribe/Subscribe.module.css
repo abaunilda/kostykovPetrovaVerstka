@@ -1,0 +1,82 @@
+.container {
+    margin: 0 auto;
+    padding-top: 200px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 60px;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.SubscribeBox {
+    height: 960px;
+    background-color: #080A0B;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    background-size: cover;
+}
+
+.container img {
+    width: 480px;
+    height: 100%;
+}
+
+
+.SubscribeBox .title span {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 32px;
+    color: #fff;
+}
+
+.SubscribeBox .title {
+    text-align: left;
+}
+
+.SubscribeBox h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 80px;
+    color: #fff;
+}
+
+.HeroBtn {
+    padding-top: 30px;
+    display: flex;
+    padding: 20px 16px;
+    background-color: #FFB548;
+    gap: 12px;
+    justify-content: center;
+    border-radius: 8px;
+    max-height: 64px;
+    max-width: 276px;
+}
+
+.ctabtn {
+    padding-top: 64px;
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+    background: none;
+    border: none;
+    cursor: pointer;
+    max-width: fit-content;
+    padding: 30px;
+}
+
+.SubscribeBox button span {
+    color: #000;
+    font-weight: 600;
+}
+
+.SubCont {
+    display: flex;
+    flex-direction: column;
+    max-width: 520px;
+    
+}

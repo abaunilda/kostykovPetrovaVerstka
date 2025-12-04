@@ -1,0 +1,71 @@
+.HeroBox {
+    height: 836px;
+    padding-top: 168px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.HeroBox a {
+    padding-top: 32px;
+}
+
+.HeroBox h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 80px;
+    color: #fff;
+}
+
+.HeroBox p {
+    color: #fff;
+}
+
+.title {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.HeroBtn {
+    padding-top: 30px;
+    display: flex;
+    padding: 20px 16px;
+    background-color: #FFB548;
+    gap: 12px;
+    justify-content: center;
+    border-radius: 8px;
+    max-height: 64px;
+    max-width: 276px;
+}
+
+span {
+    color: #000;
+    font-weight: 600;
+}
+
+.line {
+    border: solid 1px #000;
+    opacity: 50%;
+    height: 24px;
+}
+
+.ctabtn {
+    padding-top: 64px;
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+    background: none;
+    border: none;
+    cursor: pointer;
+    max-width: fit-content;
+    padding: 30px;
+}
+
+button span {
+    color: #fff;
+    font-weight: 800;
+}

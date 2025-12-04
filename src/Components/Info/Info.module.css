@@ -1,0 +1,68 @@
+.InfoBox {
+    height: 1052px;
+    background-image: url('/Img/bg_image_2.jpg');
+    background-size: cover;
+    color: #fff;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.InfoBox span {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 32px;
+    color: #fff;
+}
+
+.InfoBox h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 80px;
+    color: #fff;
+}
+
+.line {
+    border: solid 2px #FFF;
+    border-radius: 50%;
+    width: 712px;
+}
+
+.txtDescription {
+    padding: 60px 0 60px 180px;
+}
+
+.textArea {
+    z-index: 100;
+    transform: translateX(-50px);
+}
+
+
+
+/* 
+.sliderBlock{
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+.sliderBlock img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+} */
+
+.sliderBlock {
+    background-image: url('/Img/slide_image.png');
+    width: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: -120px;
+    z-index: 0;
+
+}
+
+.container {
+    margin: 0 auto;
+    padding-top: 200px;
+    max-width: 1200px;
+    display: flex;
+}
