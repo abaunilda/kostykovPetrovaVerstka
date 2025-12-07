@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import styles from "./Header.module.css"
 
 function Header() {
@@ -12,11 +13,11 @@ function Header() {
                         </a>
                         <nav>
                             <ul>
-                                <a href="/"><li>MAIN</li></a>
-                                <a href="/"><li>ABOUT</li></a>
-                                <a href="/"><li>GAME FEATURES</li></a>
-                                <a href="/"><li>SYSTEM REQUIREMENTS</li></a>
-                                <a href="/"><li>QUOTES</li></a>
+                                <Link to="/"><li>MAIN</li></Link>
+                                <Link to="/about"><li>ABOUT</li></Link>
+                                <Link to="/"><li>GAME FEATURES</li></Link>
+                                <Link to="/"><li>SYSTEM REQUIREMENTS</li></Link>
+                                <Link to="/"><li>QUOTES</li> </Link>
                             </ul>
                         </nav>
                         <div className={styles.header_right}>

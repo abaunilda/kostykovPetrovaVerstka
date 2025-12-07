@@ -1,25 +1,16 @@
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import Features from './Components/Features/Features'
-import Footer from './Components/Footer/Footer'
-import Header from './Components/Header/Header'
-import Hero from './Components/Hero/Hero'
-import HeroBack from './Components/HeroBack/HeroBack'
-import Info from './Components/Info/Info'
-import Requirements from './Components/Requirements/Requirements'
-import Subscribe from './Components/Subscribe/Subscribe'
+import HomePage from './Pages/HomePage/HomePage'
+import About from './Pages/HomePage/About/About'
 
 function App() {
 
   return (
     <>
-      <HeroBack />
-      <Header />
-      <Hero />
-      <Info />
-      <Features/>
-      <Requirements/>
-      <Subscribe/>
-      <Footer/>
+  <Routes>
+    <Route path='/' element={<HomePage/>}/>
+    <Route path='/about' element={<About/>}/>
+  </Routes>
     </>
   )
 }
